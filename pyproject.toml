@@ -10,6 +10,9 @@ python = "^3.12"
 fastapi = "^0.111.1"
 
 
+[tool.poetry.group.db.dependencies]
+sqlmodel = "^0.0.21"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
